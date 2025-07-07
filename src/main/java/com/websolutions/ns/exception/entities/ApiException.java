@@ -1,7 +1,5 @@
 package com.websolutions.ns.exception.entities;
 
-
-import com.websolutions.ns.util.ErrorCodes;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
 

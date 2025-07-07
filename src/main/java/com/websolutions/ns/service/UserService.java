@@ -41,4 +41,10 @@ public class UserService {
                 .toList();
     }
 
+    @Transactional
+    public void deleteUser(UUID uuid) {
+        this.getUserById(uuid);
+        userRepository.deleteById(uuid);
+    }
+
 }

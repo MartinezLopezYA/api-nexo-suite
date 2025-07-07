@@ -2,9 +2,7 @@ package com.websolutions.ns.exception;
 
 import com.websolutions.ns.dto.shared.ApiErrorResponse;
 import com.websolutions.ns.exception.entities.ApiException;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
